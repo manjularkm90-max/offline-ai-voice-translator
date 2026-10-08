@@ -1,0 +1,25 @@
+# Offline AI Voice Translator - Python 3.11 requirements
+# Install with: pip install -r requirements.txt
+
+# --- GUI ---
+customtkinter==5.2.2
+
+# --- Audio recording / playback ---
+sounddevice==0.4.6
+soundfile==0.12.1
+numpy==1.26.4
+
+# --- Speech-to-text (offline Whisper) ---
+openai-whisper==20231117
+torch==2.2.2
+
+# --- Translation (offline NLLB-200 via CTranslate2) ---
+ctranslate2==4.1.0
+transformers==4.38.2
+sentencepiece==0.2.0
+
+# --- Text-to-speech (offline) ---
+pyttsx3==2.90
+
+# --- Only required on Windows for pyttsx3 SAPI5 backend ---
+pypiwin32==223; sys_platform == 'win32'

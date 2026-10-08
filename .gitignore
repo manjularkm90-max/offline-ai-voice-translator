@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+models/
+model-en/
+audio/
+Output/
+history.json
+.vscode/
